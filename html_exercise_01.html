@@ -23,7 +23,7 @@
         table{
             border-collapse: collapse;
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 100px;
         }
         table, th, td{
             border: 1px solid #ddd;
@@ -32,38 +32,48 @@
             padding: 10px;
             text-align: left;
         }
+        audio, video{
+            width: 100%;
+            margin-bottom: 20px;
+        }
 
         
     </style>
 </head>
 <body>
 
-    <!--Navigation Menu-->
-    <nav>
-        <ul>
-            <li><a href="#" onclick="alert('Home link not available yet');">Home</a></li>
-            <li><a href="#" onclick="alert('About Us link not available yet');">About Us</a></li>
-            <li><a href="#" onclick="alert('Contact the CITCS Department')">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+
+        <!--Navigation Menu-->
+        <nav>
+            <ul>
+                <li><a href="#" onclick="alert('Home link not available yet');">Home</a></li>
+                <li><a href="#" onclick="alert('About Us link not available yet');">About Us</a></li>
+                <li><a href="#" onclick="alert('Contact the CITCS Department')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
 
     <!-- Image -->
     <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/419526379_774662278037570_4698416407503486064_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeHcr4dJtTAQu15mOWowAWrIhEaUxCIiLSaERpTEIiItJl8fPS7VgWfm97FOyGiK_BA&_nc_ohc=3cRG5O78FqcAX_56BN4&_nc_ht=scontent.fmnl3-2.fna&oh=00_AfA2eob_MG2F2mMSio7V0QdVdykiFvVDaTQucQIpeNm5Jg&oe=65AF4951" alt="Image here please" width="500" height="300">
     <h3>Forms</h3>
-    <!--Form-->
+    <!--Form/Edited with HTML5 Form Validation-->
     <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required minlength="3">
+        <br>
         <br>
 
         <label for="password">Password:</label>
-        <input type="password" name="" id="password" name="password" required>
+        <input type="password" name="" id="password" name="password" required minlength="6">
         <br>
 
         <label>Gender:</label>
-        <input type="radio" id="male" name="Gender" value="male">
+        <input type="radio" id="male" name="Gender" value="male" required>
         <label for="male">Male</label>
-        <input type="radio" id="female" name="Gender" value="female">
+        <input type="radio" id="female" name="Gender" value="female" required>
         <label for="female">Female</label>
         <br>
 
@@ -77,7 +87,7 @@
         <input type="submit" value="submit">
 
     </form>
-
+    <br><br><br><br><br>
     <hr>
     <h3>Table Activity</h3>
 
@@ -93,11 +103,36 @@
         <tbody>
             <tr>
                 <td>Edward</td>
-                <td>19-dihan niyo na yon</td>
-                <td>Sa ilalim ng tulay</td>
+                <td>19</td>
+                <td>Baguio</td>
+            </tr>
+            <tr>
+                <td>Joseph</td>
+                <td>25</td>
+                <td>Jerusalem</td>
+            </tr>
+            <tr>
+                <td>Mark Joshua</td>
+                <td>18</td>
+                <td>Mexico</td>
+                
             </tr>
         </tbody>
     </table>
+<!--Audio and Video-->
+    <section>
+        <h2>Audio Sample</h2>
+        <audio controls loop>
+            <source src="El Billete - Edgar Lopez and Quincas Moreira.mp3" type="audio/mp3">
+            Unsupported audio tag.
+        </audio>
+
+        <h2>Video Example</h2>
+        <video controls src="pexels-tima-miroshnichenko-5377684 (2160p).mp4" width="300"></video>    
+        Unsupported video tag.
+    </section>
+
+</article>
 
 </body>
 </html>
