@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML Exercise</title>
+<!-- External Stylesheet(Bootstrap) -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    nav{
+        margin-bottom: 20px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    form{
+        max-width: 400px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 50%;
+        margin-bottom: 100%;
+    }
+    table, th, td{
+        border: 5px solid #ddd;
+    }
+    th, td{
+        padding: 10px;
+        text-align: left;
+    }
+    audio, video{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+        border: 0;
+        margin-bottom: 20px;
+    }
+</style>
+<!-- External JS File -->
+<script> src="example.js"</script>
+</head>
+<body>
+    <!-- Navigation Bar with Hyperlinks -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="buttin" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+           <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#images">Images</a></li>
+                <li class="nav-item"><a class="nav-link" href="#forms">Forms</a></li>
+                <li class="nav-item"><a class="nav-link" href="#table">Table</a></li>
+                <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="#map">Map</a></li>
+                <li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
+            </ul>
+        </div>
+    </nav>
+    <article>
+        <!-- Image Section -->
+        <section id="images">
+            <h2>Images</h2>
+            <img src="PapaChess.jpg" width="300" height="300" alt="Image of Papa B">
+            <br>
+            <img src="TamaYan.jpg" width="300" height="300" alt="Image of Tama Yan!">
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms">
+            <h2>Forms</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="6">
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" required minlength="6">
+                <br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="Gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender" value="female" required>
+                <label for="female">Female</label>
+                <br>
+
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">I accept the terms and conditions</label>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+        <!-- Table Section -->
+        <section id="table">
+            <h2>Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Edward</td>
+                            <td>19</td>
+                            <td>Baguio</td>
+                        </tr>
+                        <tr>
+                            <td>Joseph</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Mark Joshua</td>
+                            <td>33</td>
+                            <td>Mexico</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </section>
+        <!-- Media Section -->
+        <section id="media">
+            <h2>Media</h2>
+            <audio controls loop>
+                <source src="SampleAudio1.mp3" type="audio/mp3">
+                Unsupported audio tag
+            </audio>
+            <video controls loop>
+                <source src="WeMadeIt.mp4" type="video/mp4">
+                Unsupported video tag
+            </video>
+            <video controls loop>
+                <source src="SoloSkusta.mp4" type="video/mp4">
+                Unsupported video tag
+            </video>
+                          
+          
+        </section>
+
+        <!-- Google Map -->
+        <section id="map">
+            <h2>Google Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.316392382785!2d120.59780320000003!3d16.408750000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a1426d6ff0fd%3A0xfe9ac4d43fc84157!2sUniversity%20of%20the%20Cordilleras!5e0!3m2!1sen!2sph!4v1706692211758!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="social">
+            <h2>Social Media Feed</h2>
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fthenbalatestnews%2Fposts%2Fpfbid025Cwnpv8aC5fhMh87a5QFfuyNPz1u7Ug7z5bZ5yM6552qgA8fZDvq2hsoDSZ42Uxzl&show_text=true&width=500" width="500" height="608" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </section>
+    
+    </body>
+</html>
