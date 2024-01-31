@@ -21,12 +21,12 @@
             max-width: 400px;
         }
         table{
-            border-collapse: collapse;
+            border-collapse: dashed;
             width: 50%;
             margin-bottom: 100px;
         }
         table, th, td{
-            border: 1px solid #ddd;
+            border: 1px solid black;
         }
         th, td {
             padding: 10px;
@@ -36,11 +36,12 @@
             width: 50%;
             margin-bottom: 20px;
         }
+        
 
         
     </style>
 </head>
-<body>
+<body style="background-color: rgb(76, 245, 208);">
 
     <header>
 
@@ -57,19 +58,20 @@
     <article>
 
     <!-- Image -->
-    <img src="PapaChess.jpg" width="300" height="300" alt="This is an image">
+
+    <img src="PapaChess.jpg" width="300" height="300" alt="This is an image"> 
     <br>
     <img src="TamaYan.jpg" width="300" height="300" alt="Nope">
     <h3>Forms</h3>
     <!--Form/Edited with HTML5 Form Validation-->
     <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required minlength="3">
+        <input type="text" id="name" name="name" required minlength="3" placeholder="Enter your name">
         <br>
         <br>
 
         <label for="password">Password:</label>
-        <input type="password" name="password" required minlength="6">
+        <input type="password" name="password" required minlength="6" placeholder="Minimum of 6 characters">
         <br>
 
         <label>Gender:</label>
@@ -133,6 +135,6 @@
     </section>
 
 </article>
-
+<footer>This is a footer</footer>
 </body>
 </html>
