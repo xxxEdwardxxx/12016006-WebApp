@@ -11,6 +11,9 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
+  background-image: url(data:image/bmp;base64,Qk32BAAAAAAAADYAAAAoAAAACAAAAAgAAAABABgAAAAAAMAAAAATCwAAEwsAAAAAAAAAAAAA0LOG0LOI0LWP0rmY1b6i2cSq3Miv3cuxzKxzy6x1zK57zrKG07mU2MGh3Mir38uwxqZixqVjx6doyqx10LWI18Cb3cip4M2xxKVpw6RpxKVsx6t3z7WL18Gf3sqv4dC5xauHxKuGxKuIyLCQz7qf18Ww3s++4tTGyLaoyLWox7apyrqu0MK418zE3dTO4djVzL/AzL7Ay7/AzMLE0cnL19HU3djb4NzgzsLIzcLIzMLJzcbM0szT2NPa3dng4N3k);
+  background-size: cover;
+  background-position: center;
 }
 
 #navbar {
