@@ -227,7 +227,7 @@ var, kbd, samp, code, pre {
 }
 pre {
 	padding: 2.4rem 3rem 3rem;
-	background: #F1F1F1;
+	background: #f1f1f1;
 }
 code {
 	font-size: 1.4rem;
@@ -257,7 +257,7 @@ abbr[title], dfn[title] {
 }
 mark {
 	background: #FFF49B;
-	color: #000;
+	color: #000000;
 }
 hr {
 	border: solid #d2d2d2;
@@ -1490,7 +1490,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: #f5e5e5;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1790,7 +1790,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: #e4d1c1;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -1956,7 +1956,7 @@ header .logo a {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: ##b66421;
+	background: #b66421;
 	border: none;
 }
 @media only screen and (max-width:600px) {
