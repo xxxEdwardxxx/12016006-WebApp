@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #b66421;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #FF0077;
+	color: #b66421;
 	outline: 0;
 }
 
@@ -2366,7 +2366,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: #b66421;
 }
 #message-warning, #message-success {
 	display: none;
